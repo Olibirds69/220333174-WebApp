@@ -5,16 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Exercises</title>
     <style>
-        body{background-color: white;
-             color: black;
+        body{
+            text-align: center;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        form{
+            text-align: center;
         }
         table {
-            background-color: #C8CCCE;
+            border: 1px solid black;
+            margin: auto;
         }
-        th, td {
-            padding: 10px;
+        img {
+            float: right;
         }
-        * {box-sizing: border-box;
+        section{
+            text-align: center;
+        }
+        article{
+            text-align: left;
         }
     </style>
 </head>
@@ -28,7 +41,7 @@
             <li style="display: inline;"><a href="#"> Contact</a></li>
         </ul>
     </nav>
-    <form action="#" method="post" align="center">
+    <form action="#" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" minlength="2" pattern="[a-z A-Z]+">
         <label for="password">Password:</label>
@@ -48,37 +61,34 @@
     <hr>
 
     <section>
-        <center>
-        <table border="black" align="right">
-                <tr align="center" style="background-color: #02c9c2;">
+        <table>
+                <tr >
                     <th>
-                        <h3>NAME</h3>
+                        <span>NAME</span>>
                     </th>
                     <th width="100">
-                        <h3>AGE</h3>
+                        <span>AGE</span>
                     </th>
                     <th width="100">
-                        <h3>CITY</h3>
+                        <span>CITY</span>
                     </th>
                 </tr>
-                <tr align="center" style="background-color: #C8CCCE;">
+                <tr>
                     <td>Philip Oliver M. Baladad</td>
                     <td>20</td>
                     <td>Baguio City</td>
                 </tr>
-                <tr align="center" style="background-color: #C8CCCE;">
+                <tr>
                     <td>Zac Obama</td>
                     <td>69</td>
                     <td>Sa Ghetto</td>
                 </tr>
         </table>
-        <img src="/images/wally1.jpg" alt="asd" align="right">
-
-    </center>
+        <img src="/images/wally1.jpg" alt="asd">
     </section>
 
     <section>
-    <Article align="left">
+    <Article>
         <audio controls muted>
             <source src="/images/TL.mp3">
         </audio>
